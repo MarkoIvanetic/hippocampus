@@ -14,7 +14,7 @@ const BlogPosts = ({ data }) => {
       <div>
         {blogPosts.map(({ node: post }) => (
           <div key={post.id}>
-            <Link to={`/blogpost/${post.slug}`}>{post.title}</Link>
+            <Link to={`/blog/${post.slug}`}>{post.title}</Link>
           </div>
         ))}
         <Link to="/">Go back to the homepage</Link>
