@@ -1,0 +1,54 @@
+{
+  "name": "hippocampus",
+  "description": "Blog site hosted on Netlify with Contentful CDN for Ema to write her stuff on :)",
+  "version": "0.0.1",
+  "author": "Marko Ivanetić",
+  "bugs": {
+    "url": "https://github.com/MarkoIvanetic/hippocampus/issues"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.2",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.8.0",
+    "gatsby-plugin-emotion": "^5.0.0",
+    "gatsby-plugin-manifest": "^2.6.1",
+    "gatsby-plugin-offline": "^3.4.0",
+    "gatsby-plugin-react-helmet": "^3.4.0",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-plugin-typography": "^2.8.0",
+    "gatsby-remark-images-contentful": "^2.7.0",
+    "gatsby-source-contentful": "^4.3.1",
+    "gatsby-source-filesystem": "^2.5.0",
+    "gatsby-transformer-remark": "^2.13.1",
+    "gatsby-transformer-sharp": "^2.9.0",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkoIvanetic/hippocampus.git"
+  }
+}
